@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry -Portfolio</title>
+    <link rel="stylesheet" href="me.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="mainNav">
+            <div class="nav-brand">
+                <h2>HN</h2>
+            </div>
+            <button id="mobileNavToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#certifications-and-projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Henry Nnamene</h1>
+                <p class="job-title">I'm a <span id="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                <a href="https://drive.google.com/file/d/1Ow5H4Xr7ihyFppy1cxDWAvvVJimTWuhn/view?usp=sharing" target="_blank" class="cta-button">View Resume</a>
+            </div>
+        </section>
+
+        
+        <section id="about" class="resume-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-picture">
+                    <img src="whatsapp img 2.0.jpeg" alt="my pic">
+                </div>
+                <div class="about-text">
+                    <p> I'm a curious and ambitious student with a passion for technology and innovation,driven by a desire to learn and create something meaningful.<br>I love coding, exploring new technologies, and working on exciting projects. When I'm not immersed in the tech world, you can find me participating in entrepreneurship competitions, brainstorming new ideas</p>
+                </div>
+            </div>
+        </section>
+
+      
+        <section id="certifications-and-projects" class="resume-section">
+            <h2>Certifications and Projects</h2>
+            <div class="split-section">
+                <div class="certifications-side">
+                    <h3>Certifications</h3>
+                    <div class="certification-slider">
+                        <div class="certification-slide">
+                            <img src="cert 1 .png" alt="Certification 1">
+                            <p> Open weaver Basics of Javascript</p>
+                        </div>
+                        <div class="certification-slide">
+                            <img src="cert 3,0.png" alt="Certification 2">
+                            <p>Introduction Into frontend development</p>
+                        </div>
+                        <div class="certification-slide">
+                            <img src="cert 3.png" alt="Certification 3">
+                            <p>Html,css and javascript for web developers </p>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button id="prevCert">Previous</button>
+                        <button id="nextCert">Next</button>
+                    </div>
+                </div>
+                <div class="projects-side">
+                    <h3>Recent Projects</h3>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <h4>Apnea_clone</h4>
+                            <p>A Movie streaming website clone made with just Html,Css and Javascript</p>
+                            <a href="https://github.com/WebWiz09/Movie-Streaming-Website" class="project-link" target="_blank">View Project</a>
+                        </div>
+                        <!-- Add more project cards as needed -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="resume-section">
+            <h2>Skills</h2>
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <p>HTML&CSS</p><div class="skill-progress" data-width="5">HTML/CSS</div>
+               <P>JavaScript</P> <div class="skill-progress" data-width="80%">JavaScript</div>
+                <P>Bootstrap</P><div class="skill-progress" data-width="70%">Bootstrap</div>
+                <P>React</P><div class="skill-progress" data-width="64%">REACT</div>
+                <!-- Add more skill bars as needed -->
+            </div>
+        </section>
+
+        <section id="contact" class="resume-section">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+   
+			<!-- Footer -->
+			<footer class="text-center p-4">
+				<p>Feel free to connect with me:</p>
+				<a href="https://github.com/WebWiz09" target="_blank"><img  id="myimg1" src="github_icon.png" alt="GitHub" class="icon"></a>
+				<a href="https://www.linkedin.com/in/henry-nnamene-1285582a2/" target="_blank" class="link"><img id="myimg" src="linkedin icon.png" alt="LinkedIn" class="icon1"></a>
+
+                <p>Made with 💓 by Henry</p>
+				</footer>
+
+    <button id="darkModeToggle" aria-label="Toggle dark mode">🌓</button>
+    <button id="scrollToTopBtn" aria-label="Scroll to top">↑</button>
+
+    <script src="me.js"></script>
+</body>
+</html>
